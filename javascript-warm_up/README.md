@@ -1,1 +1,1 @@
-Here is a readme file that contains JavaScript projects
+Here is a readme file that contains first JavaScript project
