@@ -1,0 +1,1 @@
+Here is a readme file that contains JavaScript projects
