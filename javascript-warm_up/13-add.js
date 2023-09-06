@@ -1,1 +1,3 @@
-let sum = require('./app').add
+const sum = require('./app')
+const addition = new sum()
+addition.add()
