@@ -1,4 +1,10 @@
-module.exports = function (a, b)
+module.exports = function (a,b)
 {
-    return (a + b) 
+    this.a = a
+    this.b = b
+    this.add = () =>
+    {
+        return (this.a + this.b)
+    }
+     
 }
