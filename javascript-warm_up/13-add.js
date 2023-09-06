@@ -1,2 +1,1 @@
-exports.add = add()
-
+let sum = require('./app')
