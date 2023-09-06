@@ -1,9 +1,8 @@
-function call_me (x)
+function call_me (x, theFunction)
 {
     for (let i= 0; i < x; i ++ )
     {
-        console.log("C is fun")
+        console.log(theFunction)
     }
 }
 
-new_call_me = call_me(3)
