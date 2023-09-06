@@ -1,6 +1,6 @@
 function addMeMaybe (number, theFunction)
 {
-    number += 1
+    number = number + 1
     theFunction(number)
     
 }
