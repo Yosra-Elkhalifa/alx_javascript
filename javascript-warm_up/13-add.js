@@ -1,1 +1,2 @@
-let sum = require('./app').add
+let add = require('./app')
+let sum = add()
