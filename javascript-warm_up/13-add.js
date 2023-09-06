@@ -1,2 +1,2 @@
-module.exports = {add}
+exports.add = add()
 
