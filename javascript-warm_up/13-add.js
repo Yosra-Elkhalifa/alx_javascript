@@ -1,3 +1,6 @@
-const sum = require('./app')
-const addition = new sum()
-addition.add()
+function add (a, b)
+{
+    return (a+b)
+}
+
+module.exports.add = add
