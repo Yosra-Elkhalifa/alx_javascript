@@ -1,15 +1,9 @@
-function callMeMoby (x)
+function callMeMoby (x, theFunction)
 {
-    for (let i= 0; i < x; i ++ )
+    for (let i = 0; i < x; i++)
     {
-        function call(func)
-        {
-            console.log(func)
-        }
+        console.log(theFunction)
     }
 }
 
-
-
-
-//geeks_outer('Geeks!', geeks_inner);
+module.exports.callMeMoby = callMeMoby
