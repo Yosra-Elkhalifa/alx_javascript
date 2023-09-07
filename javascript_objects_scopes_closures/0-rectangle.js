@@ -1,5 +1,9 @@
 class Rectangle
 {
+    constructor()
+    {
+        
+    }
 
 };
 
