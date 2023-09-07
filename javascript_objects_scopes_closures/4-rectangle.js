@@ -27,7 +27,7 @@ class Rectangle
     double()
     {
         let double_h = this.height * 2
-        let double_w = this.width * 3
+        let double_w = this.width * 2
         for (let i=0; i< double_h; i++)
             {
                 console.log('X'.repeat(double_w))
