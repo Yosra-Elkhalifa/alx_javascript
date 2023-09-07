@@ -20,16 +20,13 @@ class Rectangle
     rotate()
     {
         const rot_h = this.width
-        const rot_w = this.height
+        this.width = this.height
+        this.height = rot_h
     }
     double()
     {
-        let double_h = this.height * 2
-        let double_w = this.width * 2
-        for (let i=0; i< double_h; i++)
-            {
-                console.log('X'.repeat(double_w))
-            }
+       this.height = this.height * 2
+       this.width = this.width * 2
     }
 };
 
