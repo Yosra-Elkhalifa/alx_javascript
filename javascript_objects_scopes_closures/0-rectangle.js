@@ -1,10 +1,10 @@
 class Rectangle
 {
-    constructor()
+    constructor ()
     {
-        
+
     }
 
 };
 
-module.exports.Rectangle = Rectangle;
+module.exports = Rectangle;
