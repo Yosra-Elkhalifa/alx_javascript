@@ -3,12 +3,13 @@ class Rectangle
 {
     constructor (w, h)
     {
-        if (w <= 0 || h <= 0)
+        if (w > 9 || h > 9)
         {
-            return {}
+            this.width = w
+            this.height = h
+            return this.width, this.width
         }
-        // this.width = w
-        // this.height = h
+        
     }
 
 };
