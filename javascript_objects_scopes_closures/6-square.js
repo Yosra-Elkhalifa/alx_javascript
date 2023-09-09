@@ -7,14 +7,11 @@ class Square extends Square_Parent
     {
         super(size)
     }
-    charPrint(c)
+    charPrint(c = 'X')
     {
-        super.print(c = 'X')
+        for (let i=0; i<this.height; i++)
         {
-            for (let i=0; i<this.height; i++)
-            {
-                console.log('C'.repeat(this.width))
-            }
+            console.log('X'.repeat(this.width))
         }
     }
 }
