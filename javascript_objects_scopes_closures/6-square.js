@@ -9,9 +9,10 @@ class Square extends Square_Parent
     }
     charPrint(c = 'X')
     {
+        this.c = c
         for (let i=0; i<this.height; i++)
         {
-            console.log('X'.repeat(this.width))
+            console.log(this.c.repeat(this.width))
         }
     }
 }
