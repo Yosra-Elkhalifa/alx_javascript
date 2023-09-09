@@ -9,7 +9,7 @@ class Square extends Square_Parent
     }
     charPrint(c)
     {
-        super.print()
+        super.print(c = 'X')
         {
             for (let i=0; i<this.height; i++)
             {
