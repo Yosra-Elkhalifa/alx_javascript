@@ -9,14 +9,18 @@ request.get(url, function(error, response, body){
     const completed_task = {};
     users.forEach((user) => {
         if (user.completed){
-            completed_task[user.userId];
-            completed_task[user.userId]++;
-            
+            if (completed_task[user.userId]){
+                completed_task[user.userId]++;
+            }
+            else{
+                completed_task[user.userId] = 1;
+            }
         }
-        else{
-            completed_task[user.userId] =1;
-        }
+        
     });
-
-    console.log(completed_task)
+    const users_completed_tasks = {};
+    for (const userId in completed_task){
+        users_completed_tasks[userId] = completed_task[userId]
+    };
+    console.log(users_completed_tasks);
 });
